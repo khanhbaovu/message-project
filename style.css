@@ -1,0 +1,50 @@
+* {
+  font-family: Georgia;
+  color:  #2f589c;
+}
+
+body {
+  background-color: #4d7285;
+}
+
+.message-input {
+  text-align: center;
+  margin-top: 69px;
+}
+
+.message-input h3 {
+  color:#d3d5db;
+}
+
+.message-input input {
+  width: 666px;
+  height: 25px;
+  text-align: center;
+  border: none;
+  border-radius: 2%;
+}
+
+.message-input button {
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 5%;
+  border: none;
+  opacity: 0.8;
+  transition: 0.2;
+}
+
+.message-input button:hover {
+  opacity: 1;
+}
+
+.message-output {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: none;
+  border-radius: 2%;
+  padding: 10px 50px;
+  background-color: #ffffff;
+}
